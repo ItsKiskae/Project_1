@@ -17,9 +17,10 @@
                font-size: 20px;
           }
 
-h1{
-  padding-left: 8vh;
-}
+          h1 {
+               padding-left: 8vh;
+          }
+
           /* Style the container*/
           .container {
                border-radius: 25px;
@@ -27,16 +28,20 @@ h1{
                padding: 10px;
                margin: 50px;
 
-
           }
 
           /* two columns that float next to each other */
-          .column {
+          .column-left {
                float: left;
                width: 50%;
                margin-top: 10px;
                padding: 20px;
 
+          }
+
+          .column-right {
+               float: left;
+               width: 50%;
           }
 
           .row:after {
@@ -77,24 +82,24 @@ h1{
 
      <div class="container">
           <div style="text-align:left">
-           <h1>Gabe Kalogiannis</h1>
-      </div>
-      <div class="row">
-           <div class="column">
-                <img src="assets\img\bio_img\me.png" style="width:80%">
-           </div>
-           <div class="column">
-                <p>29 year old Visual Communication Design student attending San Francisco State University. Transfered from Napa Valley College, spring 2022. I goal at SFSU is to strengthen my digital design skills, as well learning more about
-                     UX/UI design.</p>
-           </div>
-      </div>
-      </div>
-      <div id="playlist">
-           <div class="playlist">
-                <iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/3fjU4ll8ySi2FoNetGZX18?utm_source=generator" width="" height="580" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; allow="
-                  encrypted-media"; fullscreen; picture-in-picture" loading="lazy"></iframe>
-           </div>
-      </div>
+               <h1>Gabe Kalogiannis</h1>
+          </div>
+          <div class="row">
+               <div class="column-left">
+                    <img src="assets\img\bio_img\me.png" style="width:80%">
+               </div>
+               <div class="column-right">
+                    <p>29 year old Visual Communication Design student attending San Francisco State University. Transfered from Napa Valley College, spring 2022. I goal at SFSU is to strengthen my digital design skills, as well learning more about
+                         UX/UI design.</p>
+               </div>
+          </div>
+     </div>
+     <div id="playlist">
+          <div class="playlist">
+               <iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/3fjU4ll8ySi2FoNetGZX18?utm_source=generator" width="" height="580" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; allow="
+                 encrypted-media"; fullscreen; picture-in-picture" loading="lazy"></iframe>
+          </div>
+     </div>
 </body>
 
 </html>
