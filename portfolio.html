@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Gabe Kalogiannis</title>
+     <link rel="stylesheet" type="text/css" title="stylesheet" href="assets\css\style.css">
+     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@500&display=swap" rel="stylesheet">
+     <style>
+          /* Style the container*/
+          .container {
+               border-radius: 25px;
+               background-color: #194040;
+               padding: 10px;
+               margin: 50px;
+               color: white;
+               font-size: 20px;
+          }
+
+          /* two columns that float next to each other */
+          .column {
+               float: left;
+               width: 50%;
+               margin-top: 10px;
+               padding: 20px;
+          }
+
+          .row:after {
+               content: "";
+               display: table;
+               clear: both;
+          }
+
+          /* when the screen is less than 600px wide, make the two columns stack on top of each other */
+          @media screen and (max-width: 600px) {
+
+               .column,
+               input[type=submit] {
+                    width: 100%;
+                    margin-top: 0;
+               }
+          }
+     </style>
+</head>
+
+<body>
+     <header>
+          <div class="topnav">
+               <a href="index.html">Home</a>
+               <a href="bio.html">Biography</a>
+               <a class="active" href="portfolio.html">Portfolio</a>
+               <a href="contact.html">Contact</a>
+               <a href="social.html">Social Media</a>
+          </div>
+     </header>
+
+     <div class="container">
+          <div style="text-align:center">
+               <h1>Thanks For Playing</h1>
+          </div>
+          <div class="row">
+               <div class="column">
+                    <img id="thanks-for-playing" src="assets/img/portfolio_img/thanks-for-playing.png" alt="thanks-for-playing" style="width:100%">
+               </div>
+               <div class="column">
+                    <p>Modeled and rendered using blender. I was challenging myself to create something new every day to get over the intial hurtal of learning <span style="color: #EA7600"><a href="https://www.blender.org/" target="_blank">blender</a></span>. March
+                         2021.</p>
+               </div>
+          </div>
+     </div>
+
+     <div class="container">
+          <div style="text-align:center">
+               <h1>Subspace Highway</h1>
+          </div>
+          <div class="row">
+               <div class="column">
+                    <img id="outrun" src="assets/img/portfolio_img/outrun.jpg" alt="outrun" style="width:100%">
+               </div>
+               <div class="column">
+                    <p>Also modeled and rendered using blender. I was challenging myself to create something new every day to get over the intial hurtal of learning <span style="color: #EA7600"><a href="https://www.blender.org/" target="_blank">blender</a></span>.
+                         March 2021.</p>
+               </div>
+          </div>
+     </div>
+
+     <div class="container">
+          <div style="text-align:center">
+               <h1>Enery Drink</h1>
+          </div>
+          <div class="row">
+               <div class="column">
+                    <video width="50%" height="25%" autoplay loop controls>
+                         <source src="assets/img/portfolio_img/des300.mp4" type="video/mp4">
+                    </video>
+               </div>
+               <div class=" column">
+                    <p>An energy drink concept for my San Francisco State University class DES 300. The label was created in Adobe Illustrator. The can was modeled using <span style="color: #EA7600"><a href="https://www.blender.org/" target="_blank">blender</a></span>. September 2022.</p>
+               </div>
+          </div>
+     </div>
+
+
+
+
+     <div class="container">
+          <div style="text-align:center">
+               <h1>NES Cartridge</h1>
+          </div>
+          <div class="row">
+               <div class="column">
+                    <video width="100%" height="50%" autoplay loop controls>
+                         <source src="assets/img/portfolio_img/nes.mp4" type="video/mp4">
+                    </video>
+               </div>
+               <div class=" column">
+                    <p>A fake game concept for the Nintendo Entertainment System using my online username. The label was created in Adobe Illustrator. The NES cartridge was modeled and rendered using <span style="color: #EA7600"><a
+                                href="https://www.blender.org/" target="_blank">blender</a></span>. March 2022.</p>
+               </div>
+          </div>
+     </div>
+
+
+
+
+</body>
+
+</html>

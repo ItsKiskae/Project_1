@@ -1,0 +1,81 @@
+html {
+  background-color: #000000;
+}
+
+body{}
+
+header{
+margin-bottom: 3vh;
+}
+
+center{
+  margin-top: 3vh;
+}
+
+ul {
+list-style-type: none;
+}
+
+
+/* TOP NAGIVATION BAR */
+.topnav {
+  overflow: hidden;
+  background-color: #1A1717;
+  margin-bottom: 3vh;
+  position: relative;
+  font-family: 'Chakra Petch', sans-serif;
+}
+.topnav a {
+  float: left;
+  color: #64DEDE;
+  padding: 20px 15px 20px 15px;
+  font-size: 20px;
+  text-decoration: none;
+  text-align: center;
+}
+.topnav a:hover {
+  background-color: #ffffff;
+  color: black;
+}
+.topnav a.active {
+  background-color: #194040;
+  color: white;
+}
+/* ^TOP NAVIGATION BAR^ */
+
+
+/* HOME tab */
+#home-gif{
+}
+/* ^HOME tab^ */
+
+
+/* BIOGRAPHY tab */
+
+#left{
+float: left;
+padding-left: 89px;
+padding-right: 50px;
+}
+#right{
+float: left;
+margin: 10px;
+font-family: 'Chakra Petch';
+}
+#playlist {
+     float: left;
+     margin-left: 6vh;
+}
+/* ^BIOGRAPHY tab^ */
+
+
+/* PORTFOLIO tab */
+/* ^PORTFOLIO tab^ */
+
+
+/* CONTACT tab */
+/* ^CONTACT tab^ */
+
+
+/* SOCIAL MEDIA tab */
+/* ^SOCIAL MEDIA tab^ */
